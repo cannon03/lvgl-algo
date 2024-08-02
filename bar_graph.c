@@ -15,6 +15,7 @@ void init_bar_graph(BarGraph *graph) {
   graph->count = 0;
   graph->capacity = 0;
   graph->values = NULL;
+  graph->series = NULL;
 }
 
 void write_bar_graph(BarGraph *graph, Value value) {
@@ -34,10 +35,9 @@ void free_bar_graph(BarGraph *graph) {
 }
 
 
-
 void show_bar_graph(BarGraph *graph) {
   lv_obj_t *main_cont = lv_obj_create(lv_screen_active());
-  lv_obj_set_size(main_cont, LV_SIZE_CONTENT, 150);
+  lv_obj_set_size(main_cont, LV_SIZE_CONTENT,500);
   lv_obj_center(main_cont);
 
   lv_obj_t *wrapper = lv_obj_create(main_cont);
@@ -46,16 +46,18 @@ void show_bar_graph(BarGraph *graph) {
   lv_obj_set_flex_flow(wrapper, LV_FLEX_FLOW_COLUMN);
 
   lv_obj_t *chart = lv_chart_create(wrapper);
-  lv_obj_set_width(chart,400);
+  lv_obj_set_width(chart,800);
   lv_obj_set_flex_grow(chart,1);
   lv_chart_set_type(chart,LV_CHART_TYPE_BAR);
-  lv_chart_set_range(chart,LV_CHART_AXIS_PRIMARY_Y,0,100);
-  lv_chart_set_range(chart,LV_CHART_AXIS_SECONDARY_Y,0,400);
-  lv_chart_set_point_count(chart,12);
+  lv_chart_set_range(chart,LV_CHART_AXIS_PRIMARY_Y,0,1000);
+  lv_chart_set_range(chart,LV_CHART_AXIS_SECONDARY_Y,0,1000);
+  lv_chart_set_point_count(chart,graph->count);
   lv_obj_set_style_radius(chart,0,0);
 
-   lv_chart_series_t *ser1 = lv_chart_add_series(chart,lv_palette_lighten(LV_PALETTE_LIGHT_GREEN, 2),LV_CHART_AXIS_PRIMARY_Y);
+  graph->chart = chart;
 
+   lv_chart_series_t *ser1 = lv_chart_add_series(chart,lv_palette_lighten(LV_PALETTE_LIGHT_GREEN, 2),LV_CHART_AXIS_PRIMARY_Y);
+  graph->series = ser1;
 
   for(int i=0;i<graph->count;i++){
     lv_chart_set_next_value(chart,ser1,graph->values[i]);

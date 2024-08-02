@@ -335,6 +335,54 @@ memory.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/memory.c.s
 .PHONY : memory.c.s
 
+sorting/bubble_sort.o: sorting/bubble_sort.c.o
+.PHONY : sorting/bubble_sort.o
+
+# target to build an object file
+sorting/bubble_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sorting/bubble_sort.c.o
+.PHONY : sorting/bubble_sort.c.o
+
+sorting/bubble_sort.i: sorting/bubble_sort.c.i
+.PHONY : sorting/bubble_sort.i
+
+# target to preprocess a source file
+sorting/bubble_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sorting/bubble_sort.c.i
+.PHONY : sorting/bubble_sort.c.i
+
+sorting/bubble_sort.s: sorting/bubble_sort.c.s
+.PHONY : sorting/bubble_sort.s
+
+# target to generate assembly for a file
+sorting/bubble_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/sorting/bubble_sort.c.s
+.PHONY : sorting/bubble_sort.c.s
+
+tree.o: tree.c.o
+.PHONY : tree.o
+
+# target to build an object file
+tree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tree.c.o
+.PHONY : tree.c.o
+
+tree.i: tree.c.i
+.PHONY : tree.i
+
+# target to preprocess a source file
+tree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tree.c.i
+.PHONY : tree.c.i
+
+tree.s: tree.c.s
+.PHONY : tree.s
+
+# target to generate assembly for a file
+tree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tree.c.s
+.PHONY : tree.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -365,6 +413,12 @@ help:
 	@echo "... memory.o"
 	@echo "... memory.i"
 	@echo "... memory.s"
+	@echo "... sorting/bubble_sort.o"
+	@echo "... sorting/bubble_sort.i"
+	@echo "... sorting/bubble_sort.s"
+	@echo "... tree.o"
+	@echo "... tree.i"
+	@echo "... tree.s"
 .PHONY : help
 
 

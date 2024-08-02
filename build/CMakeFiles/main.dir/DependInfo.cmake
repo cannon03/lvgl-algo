@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/frontend/dev/c/g/all_lvg/algo/data.c" "CMakeFiles/main.dir/data.c.o" "gcc" "CMakeFiles/main.dir/data.c.o.d"
   "/home/frontend/dev/c/g/all_lvg/algo/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
   "/home/frontend/dev/c/g/all_lvg/algo/memory.c" "CMakeFiles/main.dir/memory.c.o" "gcc" "CMakeFiles/main.dir/memory.c.o.d"
+  "/home/frontend/dev/c/g/all_lvg/algo/sorting/bubble_sort.c" "CMakeFiles/main.dir/sorting/bubble_sort.c.o" "gcc" "CMakeFiles/main.dir/sorting/bubble_sort.c.o.d"
+  "/home/frontend/dev/c/g/all_lvg/algo/tree.c" "CMakeFiles/main.dir/tree.c.o" "gcc" "CMakeFiles/main.dir/tree.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

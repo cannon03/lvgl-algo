@@ -1,13 +1,7 @@
-CMakeFiles/main.dir/main.c.o: /home/frontend/dev/c/g/all_lvg/algo/main.c \
- /usr/include/stdc-predef.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_refr.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_obj.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../lv_conf_internal.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../lv_conf_kconfig.h \
- /home/frontend/dev/c/g/all_lvg/algo/lv_conf.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_types.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../lv_conf_internal.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+CMakeFiles/main.dir/tree.c.o: /home/frontend/dev/c/g/all_lvg/algo/tree.c \
+ /usr/include/stdc-predef.h /home/frontend/dev/c/g/all_lvg/algo/tree.h \
+ /home/frontend/dev/c/g/all_lvg/algo/data.h \
+ /home/frontend/dev/c/g/all_lvg/algo/memory.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -16,14 +10,49 @@ CMakeFiles/main.dir/main.c.o: /home/frontend/dev/c/g/all_lvg/algo/main.c \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/lvgl.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/lv_version.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/lv_init.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/lv_conf_internal.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/lv_conf_kconfig.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lv_conf.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_types.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../lv_conf_internal.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
@@ -35,29 +64,55 @@ CMakeFiles/main.dir/main.c.o: /home/frontend/dev/c/g/all_lvg/algo/main.c \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/stdlib/lv_mem.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/stdlib/../lv_conf_internal.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/stdlib/lv_string.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/stdlib/../misc/lv_types.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/stdlib/lv_string.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/stdlib/lv_sprintf.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_log.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_types.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_timer.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../tick/lv_tick.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../tick/../lv_conf_internal.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../tick/../misc/lv_types.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_ll.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_math.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_array.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_async.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_anim_timeline.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_anim.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_math.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_timer.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_profiler_builtin.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_rb.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_assert.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_log.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../stdlib/lv_mem.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_utils.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/lv_draw_buf.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../misc/lv_area.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../misc/../lv_conf_internal.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../misc/lv_types.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../misc/lv_math.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../misc/lv_color.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../misc/lv_assert.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../misc/lv_palette.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../misc/lv_color.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../misc/lv_color_op.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../stdlib/lv_string.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/lv_image_dsc.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/../lv_conf_internal.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/tick/lv_tick.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_obj.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../lv_conf_internal.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_types.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_style.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/lv_font.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../lv_conf_internal.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../misc/lv_types.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/lv_symbol_def.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/lv_draw_buf.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/lv_area.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/../lv_conf_internal.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/lv_types.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/lv_math.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/lv_color.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/lv_assert.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/lv_log.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/../stdlib/lv_mem.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/../stdlib/../lv_conf_internal.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/../stdlib/lv_string.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/../stdlib/../misc/lv_types.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/lv_palette.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/lv_color.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../misc/lv_color_op.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../stdlib/lv_string.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/lv_image_dsc.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../draw/../lv_conf_internal.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../misc/lv_area.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../misc/cache/lv_cache.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../font/../misc/cache/lv_cache_entry.h \
@@ -74,16 +129,10 @@ CMakeFiles/main.dir/main.c.o: /home/frontend/dev/c/g/all_lvg/algo/main.c \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_color.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_area.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_anim.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_types.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_math.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_timer.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../tick/lv_tick.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../tick/../lv_conf_internal.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../tick/../misc/lv_types.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_ll.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_text.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../lv_conf_internal.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_types.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../stdlib/lv_sprintf.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../stdlib/../misc/lv_types.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_assert.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/lv_bidi.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../misc/../layouts/lv_layout.h \
@@ -158,63 +207,10 @@ CMakeFiles/main.dir/main.c.o: /home/frontend/dev/c/g/all_lvg/algo/main.c \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../indev/../misc/lv_timer.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../indev/../misc/lv_event.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_group.h \
- /home/frontend/dev/c/g/all_lvg/algo/tree.h \
- /home/frontend/dev/c/g/all_lvg/algo/data.h \
- /home/frontend/dev/c/g/all_lvg/algo/memory.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
- /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
- /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/frontend/dev/c/g/all_lvg/algo/bar_graph.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/lvgl.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/lv_version.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/lv_init.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/lv_conf_internal.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_types.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/stdlib/lv_mem.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/stdlib/lv_string.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/stdlib/lv_sprintf.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_log.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_timer.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_math.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_array.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_async.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_types.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_anim_timeline.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_anim.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_profiler_builtin.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../lv_conf_internal.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_rb.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_assert.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_utils.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/../draw/lv_draw_buf.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/tick/lv_tick.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_obj.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_group.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/indev/lv_indev.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_refr.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_obj.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/display/lv_display.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/font/lv_font.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/font/lv_binfont_loader.h \
@@ -463,13 +459,10 @@ CMakeFiles/main.dir/main.c.o: /home/frontend/dev/c/g/all_lvg/algo/main.c \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../stdlib/builtin/../../misc/lv_types.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../tick/lv_tick.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/../layouts/lv_layout.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_obj.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_obj_pos.h \
  /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/misc/lv_area.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/widgets/chart/lv_chart.h \
- /home/frontend/dev/c/g/all_lvg/algo/sorting/sorting.h \
- /home/frontend/dev/c/g/all_lvg/algo/sorting/../data.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/core/lv_group.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/display/lv_display.h \
- /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
+ /home/frontend/dev/c/g/all_lvg/algo/lvgl/src/widgets/label/lv_label.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -477,13 +470,4 @@ CMakeFiles/main.dir/main.c.o: /home/frontend/dev/c/g/all_lvg/algo/main.c \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h

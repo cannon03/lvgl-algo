@@ -111,10 +111,24 @@ CMakeFiles/main.dir/bar_graph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/bar_graph.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/frontend/dev/c/g/all_lvg/algo/bar_graph.c -o CMakeFiles/main.dir/bar_graph.c.s
 
+CMakeFiles/main.dir/tree.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/tree.c.o: /home/frontend/dev/c/g/all_lvg/algo/tree.c
+CMakeFiles/main.dir/tree.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/frontend/dev/c/g/all_lvg/algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/tree.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/tree.c.o -MF CMakeFiles/main.dir/tree.c.o.d -o CMakeFiles/main.dir/tree.c.o -c /home/frontend/dev/c/g/all_lvg/algo/tree.c
+
+CMakeFiles/main.dir/tree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/tree.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/frontend/dev/c/g/all_lvg/algo/tree.c > CMakeFiles/main.dir/tree.c.i
+
+CMakeFiles/main.dir/tree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/tree.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/frontend/dev/c/g/all_lvg/algo/tree.c -o CMakeFiles/main.dir/tree.c.s
+
 CMakeFiles/main.dir/memory.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/memory.c.o: /home/frontend/dev/c/g/all_lvg/algo/memory.c
 CMakeFiles/main.dir/memory.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/frontend/dev/c/g/all_lvg/algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/memory.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/frontend/dev/c/g/all_lvg/algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/memory.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/memory.c.o -MF CMakeFiles/main.dir/memory.c.o.d -o CMakeFiles/main.dir/memory.c.o -c /home/frontend/dev/c/g/all_lvg/algo/memory.c
 
 CMakeFiles/main.dir/memory.c.i: cmake_force
@@ -125,12 +139,28 @@ CMakeFiles/main.dir/memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/memory.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/frontend/dev/c/g/all_lvg/algo/memory.c -o CMakeFiles/main.dir/memory.c.s
 
+CMakeFiles/main.dir/sorting/bubble_sort.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/sorting/bubble_sort.c.o: /home/frontend/dev/c/g/all_lvg/algo/sorting/bubble_sort.c
+CMakeFiles/main.dir/sorting/bubble_sort.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/frontend/dev/c/g/all_lvg/algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/sorting/bubble_sort.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/sorting/bubble_sort.c.o -MF CMakeFiles/main.dir/sorting/bubble_sort.c.o.d -o CMakeFiles/main.dir/sorting/bubble_sort.c.o -c /home/frontend/dev/c/g/all_lvg/algo/sorting/bubble_sort.c
+
+CMakeFiles/main.dir/sorting/bubble_sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/sorting/bubble_sort.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/frontend/dev/c/g/all_lvg/algo/sorting/bubble_sort.c > CMakeFiles/main.dir/sorting/bubble_sort.c.i
+
+CMakeFiles/main.dir/sorting/bubble_sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/sorting/bubble_sort.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/frontend/dev/c/g/all_lvg/algo/sorting/bubble_sort.c -o CMakeFiles/main.dir/sorting/bubble_sort.c.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.c.o" \
 "CMakeFiles/main.dir/data.c.o" \
 "CMakeFiles/main.dir/bar_graph.c.o" \
-"CMakeFiles/main.dir/memory.c.o"
+"CMakeFiles/main.dir/tree.c.o" \
+"CMakeFiles/main.dir/memory.c.o" \
+"CMakeFiles/main.dir/sorting/bubble_sort.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -138,7 +168,9 @@ main_EXTERNAL_OBJECTS =
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: CMakeFiles/main.dir/main.c.o
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: CMakeFiles/main.dir/data.c.o
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: CMakeFiles/main.dir/bar_graph.c.o
+/home/frontend/dev/c/g/all_lvg/algo/bin/main: CMakeFiles/main.dir/tree.c.o
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: CMakeFiles/main.dir/memory.c.o
+/home/frontend/dev/c/g/all_lvg/algo/bin/main: CMakeFiles/main.dir/sorting/bubble_sort.c.o
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: CMakeFiles/main.dir/build.make
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: lib/liblvgl.a
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: lib/liblvgl_examples.a
@@ -147,7 +179,7 @@ main_EXTERNAL_OBJECTS =
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: /usr/lib/x86_64-linux-gnu/libSDL2.so
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: lib/liblvgl.a
 /home/frontend/dev/c/g/all_lvg/algo/bin/main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/frontend/dev/c/g/all_lvg/algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/frontend/dev/c/g/all_lvg/algo/bin/main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/frontend/dev/c/g/all_lvg/algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/frontend/dev/c/g/all_lvg/algo/bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

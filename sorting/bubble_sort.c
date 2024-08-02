@@ -1,9 +1,7 @@
-#include "../data.h"
-
+#include "sorting.h"
 #include <stdio.h>
 #include <stdbool.h>
 
-typedef void (*swp_fn)(Value*,Value*); 
 
 
 void swap(Value *xp,Value *yp){
@@ -28,14 +26,3 @@ void bubble_sort(Value *arr,int n, swp_fn swp){
   }
 }
 
-int main(){
-  Value data[] = {-2, 45, 0, 11, -9};
-
-  int size = sizeof(data) / sizeof(data[0]);
-
-  bubble_sort(data, size,swap);
-
-  for (int i = 0 ;i < size;i++){
-    printf("%.2f \n",data[i]);
-  }
-}

@@ -9,6 +9,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.c.o.d"
   "CMakeFiles/main.dir/memory.c.o"
   "CMakeFiles/main.dir/memory.c.o.d"
+  "CMakeFiles/main.dir/sorting/bubble_sort.c.o"
+  "CMakeFiles/main.dir/sorting/bubble_sort.c.o.d"
+  "CMakeFiles/main.dir/tree.c.o"
+  "CMakeFiles/main.dir/tree.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -11,7 +11,7 @@
 reallocate(pointer,sizeof(type) * (old_capacity), 0)
 
 
-typedef double Value;
+typedef int Value;
 
 typedef struct{
 	int capacity;
@@ -19,9 +19,19 @@ typedef struct{
 	Value *values;
 }ValueArray;
 
+typedef struct{
+	int capacity;
+	int curr;
+	Value *values;
+}ValueQueue;
 
 void init_value_array(ValueArray* array);
 void write_value_array(ValueArray *array,Value value);
 void free_value_array(ValueArray *array);
+
+void  init_value_queue(ValueQueue *queue);
+void  push_value(ValueQueue *queue,Value value);
+Value pop_value(ValueQueue *queue);
+void  free_value_queue(ValueQueue *queue);
 
 #endif

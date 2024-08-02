@@ -12,7 +12,7 @@ add_subdirectory(lvgl)
 target_include_directories(lvgl PUBLIC ${PROJECT_SOURCE_DIR})
 
 
-add_executable(main main.c data.c bar_graph.c memory.c)
+add_executable(main main.c data.c bar_graph.c tree.c memory.c sorting/bubble_sort.c)
 
 
 find_package(SDL2)

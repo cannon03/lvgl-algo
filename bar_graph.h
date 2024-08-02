@@ -3,8 +3,12 @@
 
 #include "memory.h"
 #include "data.h"
+#include "lvgl/lvgl.h"
+
 
 typedef struct{
+	lv_obj_t *chart;
+	lv_chart_series_t *series;
 	int count;
 	int capacity;
 	Value *values;
